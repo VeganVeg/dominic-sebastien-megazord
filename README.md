@@ -1,1 +1,1 @@
-<h1>Red Hot Chili Peppers
+<h2>Red Hot Chili Peppers
