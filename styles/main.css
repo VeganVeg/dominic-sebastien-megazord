@@ -1,11 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter&display=swap');
 :root {
     --persimmon: #E05A00;
     --rossoCorsa: #CC2900;
     --kleinBlue: #0029A3;
     --hunterGreen: #3E6541;
     --harvestGold: #CC8800;
-    --titre: @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-    --texte: @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter&display=swap');
+    --titre: 'Bebas Neue', cursive;
+    --texte: 'Inter', sans-serif;
 }
 
 body{
