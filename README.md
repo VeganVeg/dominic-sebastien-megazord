@@ -2,5 +2,5 @@
 <a href="https://smnarnold.com/projets/megazord">Optimisation Web - Megazord</a><br>
 <br>
 <h3>Équipe:</h3>
-- Dominic Yale
+- Dominic Yale<br>
 - Sébastien Reilly
