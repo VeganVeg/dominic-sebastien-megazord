@@ -3,5 +3,5 @@
 <br>
 <b>Équipe:</b><br>
 🔵 Dominic Yale<br>
-🔴 Sébastien Reilly
+🔴 Sébastien Reilly<br>
 🟢 Sabrina Laforest
