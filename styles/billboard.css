@@ -2,18 +2,37 @@
     width: 100vw;
     height: 100vh;
   }
-  .picture{
+  picture{
+    width: 100%;
+    height: 100%;
+    display: block;
     object-fit: fill;
-  }
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
   .bck-opacity{
     opacity: 50%;
   }
-  container-fluid{
+  
+  .container-fluid{
     position: absolute; 
     width: 100%;
     height: 100%;
   }
-  
-  @media screen (orientation: landscape) {
-    height:56.25%;
+
+  .row{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  @media screen and (min-width: 1000px) {
+    .hero{
+      height:56.25%;
+    }
   }
