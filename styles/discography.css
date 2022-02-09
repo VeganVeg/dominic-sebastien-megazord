@@ -3,11 +3,7 @@ header{
     height: 100vh;
 }
 
-@media screen and (min-width: 1000px) {
-    header{
-        height: 56.25%;
-    }
-}
+
 
 picture{
     width: 100%;
@@ -56,6 +52,26 @@ img{
     font-size: larger;
     background-color: #cc8800;
     border-radius: 5px;
+}
+
+@media screen and (min-width: 1000px) {
+    header{
+        height: 56.25%;
+    }
+
+    .paragraphe{
+        color: #0029a3;
+    }
+
+    .title-1{
+        color: #0029a3;
+    }
+
+    .gradient{
+        bottom: 0;
+    }
+
+
 }
 
 
