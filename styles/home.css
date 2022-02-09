@@ -19,15 +19,15 @@ picture {
   background-color: #3e6541;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  position: absolute;
 }
 
 img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: 50% 30%;
 }
+
 
 .contrast {
   position: absolute;
