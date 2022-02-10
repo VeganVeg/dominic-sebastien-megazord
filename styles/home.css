@@ -60,11 +60,22 @@ img {
 }
 
 .titre{
-  font-size: 100px;
+  font-size: 90px;
   font-family: var(--titre);
   color: black;
 }
 .texte{
   font-family: var(--texte);
   font-weight: 900;
+  font-size: 28px;
+  color: black;
+  line-height: 40px;
+}
+
+.btn{
+  padding: 10px 10px;
+  background-color: black;
+  font-family: var(--texte);
+  color: white;
+  font-size: large;
 }
