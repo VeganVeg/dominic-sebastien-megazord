@@ -1,0 +1,72 @@
+header{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+picture{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: #cc8800;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.gradient{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient( to bottom, rgba(0, 41, 163, 0), rgba(0, 41, 163,0.8));
+}
+
+
+.container-fluid{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.row{
+    width: 100%;
+    height: 100%;
+}
+
+.title-1{
+    color: #cc2900;
+    font-weight: 500;
+}
+
+.paragraphe{
+    color: #cc2900;
+    font-weight: bolder;
+}
+
+.button{
+    color: #0029a3;
+    font-size: larger;
+    background-color: #cc8800;
+    border-radius: 5px;
+}
+
+@media screen and (min-width: 1000px) {
+    header{
+        height: 56.25%;
+    }
+
+    .paragraphe{
+        color: #cc8800;
+    }
+
+    .title-1{
+        color: #cc8800;
+    }
+}
