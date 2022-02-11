@@ -79,3 +79,7 @@ img {
   color: white;
   font-size: large;
 }
+
+.navbar{
+  height: 50px;
+}
