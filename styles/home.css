@@ -11,6 +11,8 @@
 
 html,
 body {
+  width: 100%;
+  height: 100%;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -76,10 +78,19 @@ img {
   padding: 10px 10px;
   background-color: black;
   font-family: var(--texte);
-  color: white;
+  color: rgb(130, 126, 161);
   font-size: large;
 }
 
 .navbar{
-  height: 50px;
+  position: absolute;
+  top: 0;
+  height: 60px;
+  z-index: 1;
+  background: rgb(145, 169, 236);
+  width: 100%;
+}
+
+a .navbar {
+  flex-direction: row !important;
 }
