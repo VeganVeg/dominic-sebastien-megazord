@@ -61,14 +61,46 @@ nav{
 }
 
 footer{
-  background-color: blue;
+  background-color: rgb(120, 120, 226);
   margin-top: 20px;
   width: 100%;
-  height: 220px;
+  height: 27%;
   position: absolute;
   bottom: 0;
+  text-align: center;
 }
 
 .texteFooter{
-  padding: 20px;
+  padding-top: 20px;
+  color:black;
+}
+
+.lienGit{
+  color: black; 
+  text-decoration: none;
+}
+
+.lienGit:hover{
+  color: black;
+}
+
+@media (min-width: 992px){
+  footer{
+    height: 13%;
+  }
+}
+
+.youAreHere{
+  color:black !important;
+}
+
+.anim{
+  height: 250px;
+  width: 250px;
+}
+
+.bleu{
+  background-color: blue;
+  height: 75%;
+  width: 75%;
 }
