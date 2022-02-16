@@ -50,7 +50,7 @@ img {
   top: 0;
 }
 
-.container,
+.container-fluid,
 .row {
   position: absolute;
   top: 0;
