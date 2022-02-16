@@ -94,3 +94,7 @@ img {
 a .navbar {
   flex-direction: row !important;
 }
+
+.logo{
+  font-family: var(--titre);
+}
