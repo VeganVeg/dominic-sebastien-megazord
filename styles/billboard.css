@@ -104,14 +104,26 @@ footer{
 .anim{
   height: 250px;
   width: 250px;
+  margin-top: 10px;
   position: absolute;
 }
 
 .contenu{
-  background-color: blue;
+  background-color: rgb(161, 236, 255);
 }
 
 .card{
   margin: 10px;
+  width: 100%;
+  position: relative;
 }
 
+.titre{
+  width: 100%;
+  text-align: center;
+}
+
+.cardImg{
+  width: 250px;
+  height: 250px;
+}
