@@ -1,4 +1,4 @@
-html, body {
+html, body{
   width: 100vw;
   height: 200vh;
   background-color: yellow;
@@ -34,9 +34,9 @@ img{
   background-color: grey;
 }
 
-.title-1{
+ .title-1{
   margin: 12px 20px 12px 20px;
-}
+} 
 
 @media (orientation: landscape) {
   .hero{
@@ -54,9 +54,10 @@ img{
 }
 
 nav{
-    width: 100%;
+    width: 100% !important;
     height: 60px;
-    position: absolute !important;
+    position: relative;
+    bottom: 0;
 }
 
 footer{
@@ -96,20 +97,16 @@ footer{
 .anim{
   height: 250px;
   width: 250px;
+  position: absolute;
 }
 
 .contenu{
   background-color: blue;
   height: 75%;
   width: 75%;
-  position: absolute !important;
 }
 
 .card{
   padding: 10px;
-  position: absolute;
 }
 
-.titre{
-  position: absolute;
-}
