@@ -1,6 +1,7 @@
 html, body {
   width: 100vw;
   height: 200vh;
+  background-color: yellow;
 }
 
 .hero{
@@ -8,6 +9,11 @@ html, body {
   width: 100%;
   height: 100%;
 }
+
+section {
+  height: 100vh;
+}
+
 picture{
   width: 100%;
   height: 100%;
@@ -26,13 +32,6 @@ img{
 .bck-opacity{
   opacity: 40%;
   background-color: grey;
-}
-
-.row{
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 100%;
 }
 
 .title-1{
@@ -66,7 +65,7 @@ footer{
   width: 100%;
   height: 27%;
   position: absolute;
-  bottom: 0;
+  bottom: -100vh;
   text-align: center;
 }
 
@@ -99,8 +98,18 @@ footer{
   width: 250px;
 }
 
-.bleu{
+.contenu{
   background-color: blue;
   height: 75%;
   width: 75%;
+  position: absolute !important;
+}
+
+.card{
+  padding: 10px;
+  position: absolute;
+}
+
+.titre{
+  position: absolute;
 }
