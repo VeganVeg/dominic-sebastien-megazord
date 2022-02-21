@@ -15,7 +15,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 header {
   width: 100vw;
@@ -39,7 +39,7 @@ img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: 45% 0%;
+  object-position: 45% -200%;
 }
 
 
@@ -85,7 +85,7 @@ img {
 .navbar{
   position: absolute;
   top: 0;
-  height: 70px;
+  height: 60px;
   z-index: 1;
   background: rgb(0, 0, 0);
   width: 100%;
@@ -94,4 +94,31 @@ img {
 .logo{
   font-family: var(--titre);
   color: white;
+}
+
+section{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--hunterGreen);
+}
+
+.mdg{
+  position: absolute;
+  left: 25%;
+}
+
+.col { 
+  max-width: 400px;
+  position: absolute;
+  top: 100px;
+}
+
+.card{
+  width: 100%;
+  margin: 10px 0;
+}
+
+.card-img-top{
+  width: 100%;
 }
