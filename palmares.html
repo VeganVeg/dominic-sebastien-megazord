@@ -12,8 +12,8 @@
 <body>
   <header class="hero">
     <picture class="bck-opacity">
-      <source srcset="https://media.pitchfork.com/photos/614df4f70ab2ad4034779b3a/2:1/w_4000,h_2000,c_limit/Red-Hot-Chili-Peppers.jpg" media="(prefers-color-theme: dark)">
-        <img src="https://cdn.vox-cdn.com/thumbor/zOENRX398JrqCak5RSaoA_TVwbk=/32x0:953x614/1200x800/filters:focal(32x0:953x614)/cdn.vox-cdn.com/assets/3961801/Screen_Shot_2014-02-05_at_10.01.33_AM.png">
+      <source srcset="img/Red-Hot-Chili-Peppers.png" media="(prefers-color-theme: dark)">
+        <img src="img/Screen_Shot_2014-02-05_at_10.01.33_AM.jpg">
       </picture>
       <div class="container-fluid">
         <div class="row justify-content-center justify-content-lg-end ">
@@ -28,10 +28,12 @@
     <nav class="navbar navbar-dark navbar-expand-sm sticky-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Logo</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainNav"
+                    aria-controls="mainNav" aria-expanded="false" aria-label="Affichage/masquage de la navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavbar" style="background: #a60e0e; padding: 0; opacity: 50%;">
+
+        <div class="collapse navbar-collapse" id="mainNav" style="padding: 0; opacity: 50%;">
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link" href="index.html">Accueil</a>
