@@ -71,3 +71,30 @@ img{
         color: #cc8800;
     }
 }
+
+nav{
+    width: 100vw;
+    background-color: #3e6541;
+}
+
+#different{
+    color: #000000;
+    transition-property: color;
+    transition-duration: 0.15s;
+}
+
+#different:hover{
+    color: #3b3b3b;
+    transition-duration: 0.15s;
+}
+
+.logo{
+    font-family: var(--titre);
+    color: #fff;
+    margin-right: 15px;
+    font-size: 35px;
+}
+
+#navigation{
+    margin: 0;
+}
