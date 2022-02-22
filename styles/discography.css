@@ -74,9 +74,12 @@ img{
 }
 
 nav{
+    position: relative;
     width: 100vw;
     background-color: #3e6541;
+    bottom: 0;
 }
+
 
 #different{
     color: #000000;
