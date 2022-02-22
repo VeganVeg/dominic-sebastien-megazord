@@ -140,3 +140,8 @@ footer{
   main{
       position: relative;
   }
+
+  .albums{
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
