@@ -53,7 +53,6 @@ img {
 .row {
   position: absolute;
   height: 100%;
-  margin: 0;
 }
 
 .titre {
@@ -99,22 +98,14 @@ section {
 }
 
 .mdg {
-  position: absolute;
-  left: 25%;
-}
-
-.col {
   width: 100%;
-  top: 100px;
+  height: 100%;
+  left: 25%;
 }
 
 .card {
   width: 100%;
   margin: 10px 0;
-}
-
-.card-img-top {
-  width: 100%;
 }
 
 .card-header {
