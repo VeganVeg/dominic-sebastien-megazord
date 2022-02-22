@@ -57,6 +57,7 @@ img{
     font-size: larger;
     background-color: #cc8800;
     border-radius: 5px;
+    text-decoration: none;
 }
 
 @media screen and (orientation: landscape) {
@@ -128,4 +129,14 @@ footer{
 
   .texteFooter{
     color: #fff;
+  }
+
+  .animation{
+    position: relative;
+    width: 100%;
+    top: 0;
+  }
+  
+  main{
+      position: relative;
   }
