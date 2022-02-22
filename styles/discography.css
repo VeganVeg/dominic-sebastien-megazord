@@ -134,7 +134,8 @@ footer{
   .animation{
     position: relative;
     width: 100%;
-    top: 0;
+    bottom: 35vh;
+    display: block;
   }
   
   main{
@@ -144,4 +145,10 @@ footer{
   .contenu{
       margin-top: 20px;
       margin-bottom: 20px;
+  }
+
+  .block{
+      position: relative;
+      display: block;
+      margin-top: 20px;
   }
