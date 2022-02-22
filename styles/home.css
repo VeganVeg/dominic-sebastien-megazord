@@ -1,13 +1,12 @@
 :root {
-  --persimmon: #E05A00;
-  --rossoCorsa: #CC2900;
-  --kleinBlue: #0029A3;
-  --hunterGreen: #3E6541;
-  --harvestGold: #CC8800;
-  --titre: 'Bebas Neue', cursive;
-  --texte: 'Inter', sans-serif;
+  --persimmon: #e05a00;
+  --rossoCorsa: #cc2900;
+  --kleinBlue: #0029a3;
+  --hunterGreen: #3e6541;
+  --harvestGold: #cc8800;
+  --titre: "Bebas Neue", cursive;
+  --texte: "Inter", sans-serif;
 }
-
 
 html,
 body {
@@ -39,9 +38,7 @@ img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: 45% -200%;
 }
-
 
 .contrast {
   position: absolute;
@@ -55,18 +52,16 @@ img {
 .container-fluid,
 .row {
   position: absolute;
-  top: 0;
   height: 100%;
-  width: 100%;
   margin: 0;
 }
 
-.titre{
+.titre {
   font-size: 90px;
   font-family: var(--titre);
   color: black;
 }
-.texte{
+.texte {
   font-family: var(--texte);
   font-weight: 900;
   font-size: 28px;
@@ -74,7 +69,7 @@ img {
   line-height: 40px;
 }
 
-.btn{
+.btn {
   padding: 10px 10px;
   background-color: black;
   font-family: var(--texte);
@@ -82,7 +77,7 @@ img {
   font-size: large;
 }
 
-.navbar{
+.navbar {
   position: absolute;
   top: 0;
   height: 60px;
@@ -91,34 +86,51 @@ img {
   width: 100%;
 }
 
-.logo{
+.logo {
   font-family: var(--titre);
   color: white;
 }
 
-section{
+section {
   position: absolute;
   width: 100%;
   height: 100%;
   background-color: var(--hunterGreen);
 }
 
-.mdg{
+.mdg {
   position: absolute;
   left: 25%;
 }
 
-.col { 
-  max-width: 400px;
-  position: absolute;
+.col {
+  width: 100%;
   top: 100px;
 }
 
-.card{
+.card {
   width: 100%;
   margin: 10px 0;
 }
 
-.card-img-top{
+.card-img-top {
   width: 100%;
+}
+
+.card-header {
+  font-family: var(--titre);
+  font-size: 30px;
+}
+
+.card-title {
+  font-family: var(--titre);
+  font-size: 20px;
+}
+
+.card-text {
+  font-family: var(--texte);
+}
+
+.btn-primary {
+  margin: 10px 20px;
 }
