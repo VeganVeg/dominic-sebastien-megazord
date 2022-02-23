@@ -108,3 +108,18 @@ footer{
   text-align: center;
 
 }
+
+.card:hover{
+  animation-name:hoverAnim;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes hoverAnim{
+  from {transform: scale(100%)}
+  to {transform: scale(102%)}
+}
+
+a{
+  text-decoration: none;
+}
