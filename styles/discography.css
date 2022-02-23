@@ -1,4 +1,5 @@
 header{
+    position: relative;
     width: 100vw;
     height: 100vh;
 }
@@ -40,6 +41,7 @@ img{
     height: 100%;
 }
 
+
 .title-1{
     color: #cc2900;
     font-weight: 500;
@@ -55,16 +57,12 @@ img{
     font-size: larger;
     background-color: #cc8800;
     border-radius: 5px;
+    text-decoration: none;
 }
 
-.navbar{
-    background-color: #cc2900;
-    width: 100%;
-}
-
-@media screen and (min-width: 1000px) {
+@media screen and (orientation: landscape) {
     header{
-        height: 56.25%;
+        height: 56.25vw;
     }
 
     .paragraphe{
@@ -75,3 +73,82 @@ img{
         color: #cc8800;
     }
 }
+
+nav{
+    position: relative;
+    width: 100vw;
+    background-color: #3e6541;
+    bottom: 0;
+}
+
+
+#different{
+    color: #000000;
+    transition-property: color;
+    transition-duration: 0.15s;
+}
+
+#different:hover{
+    color: #3b3b3b;
+    transition-duration: 0.15s;
+}
+
+.logo{
+    font-family: var(--titre);
+    color: #fff;
+    margin-right: 15px;
+    font-size: 35px;
+}
+
+#navigation{
+    margin: 0;
+}
+
+footer{
+    background-color: #730e0e;
+    margin-top: 20px;
+    padding: 20px;
+    height: 27%;
+    width: 100vw;
+    position: absolute;
+    bottom: -200vh;
+    text-align: center;
+  }
+
+  .lienGit{
+    color: #fff;
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: 0.15s;
+  }
+
+  .lienGit:hover{
+      color: #000000;
+      transition-duration: 0.15s;
+  }
+
+  .texteFooter{
+    color: #fff;
+  }
+
+  .animation{
+    position: relative;
+    width: 100%;
+    bottom: 35vh;
+    display: block;
+  }
+  
+  main{
+      position: relative;
+  }
+
+  .contenu{
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+
+  .block{
+      position: relative;
+      display: block;
+      margin-top: 20px;
+  }
