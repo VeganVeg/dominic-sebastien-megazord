@@ -16,8 +16,21 @@ body{
   top: 0;
 }
 
-.billboardText{
+.billboardtext{
   text-align: justify;
+  color: white !important;
+}
+
+.title-1{
+  color: white;
+}
+
+.button{
+  border-style: outset;
+  padding: 5px;
+  background-color: #540a0a;
+  border-color:  #360505;
+  color: white ;
 }
 
 picture{
@@ -95,6 +108,7 @@ footer{
 
 .youAreHere{
   color:black !important;
+
 }
 
 .anim{
@@ -123,6 +137,7 @@ footer{
 
 a{
   text-decoration: none;
+  font-weight: bolder;
 }
 
 h1{
