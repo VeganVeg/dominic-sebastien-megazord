@@ -15,7 +15,7 @@ body {
   padding: 0;
   overflow-x: hidden;
 }
-header {  
+header {
   width: 100vw;
   height: 100vh;
   position: relative;
@@ -125,11 +125,11 @@ section {
   margin: 10px 20px;
 }
 
-.name{
+.name {
   margin: 0;
 }
 
-footer{
+footer {
   background-color: var(--harvestGold);
   padding: 20px;
   bottom: 0;
@@ -137,8 +137,12 @@ footer{
   width: 100%;
 }
 
-.right-side-footer{
+.right-side-footer {
   right: 0;
   position: relative;
   margin: 0;
+}
+
+.animation {
+  width: 100%;
 }
