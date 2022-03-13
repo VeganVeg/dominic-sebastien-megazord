@@ -148,3 +148,11 @@ iframe{
   margin-left: auto;
   margin-right: auto;
 }
+
+.name{
+  color: black;
+}
+
+.name:hover{
+  color: yellow;
+}
