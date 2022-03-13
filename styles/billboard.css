@@ -156,3 +156,7 @@ iframe{
 .name:hover{
   color: yellow;
 }
+
+.swiper {
+  height: 300px;
+}
