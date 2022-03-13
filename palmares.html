@@ -211,11 +211,11 @@
                 
                 <div class="swiper mySwiper">
                   <div class="swiper-wrapper">
-                    <div class="swiper-slide"><img src="img/perform1.jpg"></div>
-                    <div class="swiper-slide"><img src="img/perform2.jpg"></div>
-                    <div class="swiper-slide"><img src="img/perform3.jpg"></div>
-                    <div class="swiper-slide"><img src="img/perform4.jpg"></div>
-                    <div class="swiper-slide"><img src="img/perform5.jpg"></div>
+                    <div class="swiper-slide"><img class="perform" src="img/perform1.jpg"></div>
+                    <div class="swiper-slide"><img class="perform" src="img/perform2.jpg"></div>
+                    <div class="swiper-slide"><img class="perform" src="img/perform3.jpg"></div>
+                    <div class="swiper-slide"><img class="perform" src="img/perform4.jpg"></div>
+                    <div class="swiper-slide"><img class="perform" src="img/perform5.jpg"></div>
                   </div>
                   <div class="swiper-button-next"></div>
                   <div class="swiper-button-prev"></div>
@@ -232,6 +232,12 @@
                 <script>
                   var swiper = new Swiper(".mySwiper", {
                     loop: true,
+                    breakpoints: {
+                      992: {
+                        slidesPerView: 2,
+                        spaceBetween: 20,
+                      },
+                    },
                     navigation: {
                       nextEl: ".swiper-button-next",
                       prevEl: ".swiper-button-prev",

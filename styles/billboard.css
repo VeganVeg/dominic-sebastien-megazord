@@ -160,3 +160,7 @@ iframe{
 .swiper {
   height: 300px;
 }
+
+.perform{
+  object-fit: fill;
+}
