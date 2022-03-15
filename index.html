@@ -119,14 +119,13 @@
                 </div>
                 <section>
                     <h2>Images promotionnelles</h2>
-
-                    <div class="swiper">
+                    <div class="swiper root">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide"><img class="promo" src=""></div>
-                            <div class="swiper-slide"><img class="promo" src=""></div>
-                            <div class="swiper-slide"><img class="promo" src=""></div>
-                            <div class="swiper-slide"><img class="promo" src=""></div>
-                            <div class="swiper-slide"><img class="promo" src=""></div>
+                            <div class="swiper-slide"><img class="promo" src="img/promo1.jpg"></div>
+                            <div class="swiper-slide"><img class="promo" src="img/promo2.jpg"></div>
+                            <div class="swiper-slide"><img class="promo" src="img/promo3.jpg"></div>
+                            <div class="swiper-slide"><img class="promo" src="img/promo4.jpg"></div>
+                            <div class="swiper-slide"><img class="promo" src="img/promo5.jpeg"></div>
                         </div>
                         <div class="swiper-button-next"></div>
                         <div class="swiper-button-prev"></div>
@@ -134,6 +133,30 @@
 
                     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
                     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+                    <script>
+                        const swiper = new Swiper('.swiper', {
+                            // Optional parameters
+                            direction: 'horizontal',
+                            loop: true,
+
+                            // If we need pagination
+                            pagination: {
+                                el: '.swiper-pagination',
+                            },
+
+                            // Navigation arrows
+                            navigation: {
+                                nextEl: '.swiper-button-next',
+                                prevEl: '.swiper-button-prev',
+                            },
+
+                            // And if we need scrollbar
+                            scrollbar: {
+                                el: '.swiper-scrollbar',
+                            },
+                        }); 
+                    </script>
                 </section>
                 <section>
                     <h2>Vidéo</h2>
