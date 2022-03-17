@@ -153,8 +153,8 @@ footer{
   }
 
   .contenu{
-      margin-top: 20px;
-      margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   .block{
@@ -168,6 +168,22 @@ footer{
   }
 
   .sab{
-      width: 300px;
-      margin: auto;
+    width: 300px;
+    margin: auto;
   }
+
+  .dom{
+    width: 300px;
+    margin: auto;
+  }
+
+  .seb{
+    width: 300px;
+    margin: auto;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }  
