@@ -136,6 +136,11 @@ footer{
     color: #fff;
   }
 
+  .nom:hover{
+    color: #cc8800;
+    cursor: pointer;
+  }
+
   .animation{
     position: relative;
     width: 100%;
@@ -160,4 +165,9 @@ footer{
 
   ul{
    list-style-type: number;   
+  }
+
+  .sab{
+      width: 300px;
+      margin: auto;
   }
