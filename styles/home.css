@@ -14,7 +14,7 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  background-color: #3e6541;
+  background-color: #540a0a;
 }
 
 header {
@@ -30,7 +30,7 @@ header {
 }
 
 picture {
-  background-color: #3e6541;
+  background-color: #800000;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -47,7 +47,7 @@ picture {
   position: absolute;
   height: 100%;
   width: 100%;
-  background-color: #0029a3;
+  background-color: #800000;
   opacity: 20%;
   top: 0;
   left: 0;
@@ -61,7 +61,7 @@ header .row {
 }
 
 .main{
-  background-color: var(--hunterGreen);
+  background-color: #800000;
 }
 
 .titre {
@@ -88,7 +88,7 @@ header .row {
 .navbar {
   height: 60px;
   z-index: 1;
-  background: rgb(0, 0, 0);
+  background: #540a0a;
   width: 100%;
 }
 
@@ -98,7 +98,7 @@ header .row {
 }
 
 section {
-  background-color: var(--hunterGreen);
+  background-color: #800000;
   padding-bottom: 20px;
 }
 
@@ -150,7 +150,7 @@ footer a{
 }
 
 footer {
-  background-color: var(--harvestGold);
+  background-color: #540a0a;
   padding: 20px;
   bottom: 0;
   position: relative;
