@@ -14,7 +14,7 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  background-color: #540a0a;
+  background-color: #800000;
 }
 
 header {
@@ -90,6 +90,7 @@ header .row {
   z-index: 1;
   background: #540a0a;
   width: 100%;
+  color: white;
 }
 
 .logo {
@@ -102,6 +103,10 @@ section {
   padding-bottom: 20px;
 }
 
+h2{
+  color: white;
+  height:46.39px;
+}
 
 .mdg {
   width: 100%;
@@ -137,16 +142,16 @@ a{
 }
 
 footer a{
-  color: black;
+  color: white;
 }
 
 .name {
   margin: 0;
-  color: black;
+  color: white;
 }
 
 .name:hover{
-  color: var(--kleinBlue);
+  color: grey;
 }
 
 footer {
@@ -162,6 +167,7 @@ footer {
   right: 0;
   position: relative;
   margin: 0;
+  color: white;
 }
 
 .animation {
