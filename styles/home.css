@@ -60,7 +60,7 @@ header .row {
   width: 100%;
 }
 
-.main{
+.main {
   background-color: #800000;
 }
 
@@ -103,9 +103,9 @@ section {
   padding-bottom: 20px;
 }
 
-h2{
+h2 {
   color: white;
-  height:46.39px;
+  height: 46.39px;
 }
 
 .mdg {
@@ -137,11 +137,11 @@ h2{
   margin: 10px 20px;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-footer a{
+footer a {
   color: white;
 }
 
@@ -150,7 +150,7 @@ footer a{
   color: white;
 }
 
-.name:hover{
+.name:hover {
   color: grey;
 }
 
@@ -174,16 +174,20 @@ footer {
   width: 100%;
 }
 
-.img-credits{
+.img-credits {
   width: 300px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.root{
+.root {
   aspect-ratio: 16/9;
 }
 
-.promo{
+.promo {
   height: 100%;
+}
+
+.modal-title {
+  color: black;
 }
