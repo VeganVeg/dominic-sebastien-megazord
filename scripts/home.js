@@ -1,9 +1,9 @@
-gsap.registerPlugins(Scrolltrigger);
+gsap.registerPlugin(ScrollTrigger);
 
-gsap.to('section', {
+gsap.to('.section', {
   scrollTrigger: {
     markers: true,
-    trigger: 'section',
+    trigger: '.section',
   },
   x: '40%',
   duration: 1,
