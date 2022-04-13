@@ -69,6 +69,7 @@ header .row {
   font-family: var(--titre);
   color: black;
 }
+
 .texte {
   font-family: var(--texte);
   font-weight: 900;
@@ -106,7 +107,7 @@ section {
 
 h2 {
   color: white;
-  height: 46.39px;
+  font-size: 45px;
 }
 
 .mdg {

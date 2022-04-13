@@ -1,13 +1,10 @@
 gsap.registerPlugin(ScrollTrigger);
 
-let baniereArr = document.querySelectorAll('body');
-
-baniereArr.forEach(function(book) {
-  let imagesArr = document.querySelectorAll('section');
-    imagesArr.forEach(function(img) {
-    gsap.to(img, {
+let imagesArr = document.querySelectorAll('section');
+imagesArr.forEach(function (img) {
+  gsap.to(img, {
     scrollTrigger: {
-      markers: false,
+      markers: true,
       start: 'top 70%',
       end: 'tpo 50%',
       trigger: img,
@@ -16,7 +13,22 @@ baniereArr.forEach(function(book) {
     y: '0',
     opacity: '1',
     duration: 0.3,
-      });
-    });
-  
+  });
+});
+
+
+let titleArr = document.querySelectorAll('h2')
+titleArr.forEach(function (title) {
+  console.log(title)
+  gsap.to(title, {
+    scrollTrigger: {
+      markers: true,
+      start: 'top 70%',
+      end: 'tpo 50%',
+      trigger: title,
+      toggleActions: 'restart complete reverse reset',
+    },
+    fontSize: '35px',
+    duration: 0.3,
+  });
 });
