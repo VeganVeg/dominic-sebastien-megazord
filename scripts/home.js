@@ -13,7 +13,7 @@ baniereArr.forEach(function(book) {
       trigger: img,
       toggleActions: 'restart complete reverse reset',
     },
-    y: '-30px',
+    y: '0',
     opacity: '1',
     duration: 0.3,
       });
