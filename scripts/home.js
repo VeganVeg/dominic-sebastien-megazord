@@ -8,3 +8,5 @@ gsap.to('.section', {
   x: '40%',
   duration: 1,
 });
+
+console.log("grasdur");
