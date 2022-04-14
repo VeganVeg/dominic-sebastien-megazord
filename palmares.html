@@ -1,13 +1,313 @@
 <!DOCTYPE html>
 <head>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="styles/main.css">
-<script type="text/javascript" src="scripts/main.js"></script>
+  <title>Palmares</title>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles/billboard.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <script src="scripts/billboard.js"></script>
 </head>
 <body>
-
-</body>
-</html>
+  <header class="hero">
+    <picture class="bck-opacity">
+      <source srcset="img/Red-Hot-Chili-Peppers.png" media="(prefers-color-theme: dark)">
+        <img src="img/Screen_Shot_2014-02-05_at_10.01.33_AM.jpg">
+      </picture>
+      <div class="container-fluid">
+        <div class="row justify-content-center justify-content-lg-end ">
+          <section class="col-12 col-sm-8 col-lg-4 accueil">
+            <p class="title-1">Palmarès</p>
+            <p class="billboardtext"> Avec 11 albums a leur actifs, 49 videoclips, 62 singles et 26 prix divers le groupe est toujours actif jusqu'a ce jour.</p>
+            <button class="button" type="button"><a href="#main" style="color:white;">En savoir plus</a></button>
+          </section>  
+        </div>
+      </div>
+    </header>
+    
+    <nav class="navbar navbar-dark navbar-expand-sm sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">RHCP</a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainNav"
+        aria-controls="mainNav" aria-expanded="false" aria-label="Affichage/masquage de la navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="mainNav" style="padding: 0; opacity: 50%;">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="discographie.html">Discographie</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="palmares.html">Palmares</a>
+          </li>    
+        </ul>
+      </div>
+    </div>
+  </nav> 
+  
+  <div class="container-fluid">
+    <div class="row">
+      <div class="d-none d-md-block col-md-3">
+        <img class="anim img-fluid" src="https://i.imgur.com/maLPGgu.png">
+      </div>
+      <div class="col-12 col-md-9" id="main">
+        <div class="row">
+          <div class="titre ">
+            <p class="title-1">Videoclips</p>
+            
+            <!-- CARD ONE-->
+            <div class="card cOne">
+              <div class="card-body">
+                <a href="https://www.youtube.com/watch?v=8DyziWtkfBw">
+                  <div class="row">
+                    <div class="col-12 col-sm-4">
+                      <img class="cardImg img-fluid" src="img/cantstop.png">
+                    </div>
+                    <div class="col-12 col-sm-8">
+                      <div class="card-title">
+                        <p class="title-2">Can't Stop</p>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">By the Way</li>
+                        <li class="list-group-item">2002</li>
+                        <li class="list-group-item">4:37</li>
+                      </ul>
+                    </div>
+                  </div></a>
+                </div>
+              </div>
+              
+              <!-- CARD TWO-->
+              <div class="card cTwo">
+                <div class="card-body">
+                  <a href="https://www.youtube.com/watch?v=yuFI5KSPAt4">
+                    <div class="row">
+                      <div class="col-12 col-sm-4">
+                        <img class="cardImg img-fluid" src="img/snow.png">
+                      </div>
+                      <div class="col-12 col-sm-8">
+                        <div class="card-title">
+                          <p class="title-2">Snow (Hey Oh)</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">Stadium Arcadium</li>
+                          <li class="list-group-item">2006</li>
+                          <li class="list-group-item">5:49</li>
+                        </ul>
+                      </div>
+                    </div></a>
+                  </div>
+                </div>
+                
+                <!-- CARD THREE-->
+                <div class="card cThree">
+                  <div class="card-body">
+                    <a href="https://www.youtube.com/watch?v=rn_YodiJO6k">
+                      <div class="row">
+                        <div class="col-12 col-sm-4">
+                          <img class="cardImg img-fluid" src="img/otherside.png">
+                        </div>
+                        <div class="col-12 col-sm-8">
+                          <div class="card-title">
+                            <p class="title-2">Otherside</p>
+                          </div>
+                          <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Californication</li>
+                            <li class="list-group-item">1999</li>
+                            <li class="list-group-item">4:15</li>
+                          </ul>
+                        </div>
+                      </div></a>
+                    </div>
+                  </div>
+                  
+                  <!-- CARD FOUR-->
+                  <div class="card cFour">
+                    <div class="card-body">
+                      <a href="https://www.youtube.com/watch?v=OS8taasZl8k">
+                        <div class="row">
+                          <div class="col-12 col-sm-4">
+                            <img class="cardImg img-fluid" src="img/blackSummer.png">
+                          </div>
+                          <div class="col-12 col-sm-8">
+                            <div class="card-title">
+                              <p class="title-2">Black Summer</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                              <li class="list-group-item">Unlimited Love</li>
+                              <li class="list-group-item">2022</li>
+                              <li class="list-group-item">3:53</li>
+                            </ul>
+                          </div>
+                        </div></a>
+                      </div>
+                    </div>
+                    
+                    <!-- CARD FIVE-->
+                    <div class="card cFive">
+                      <div class="card-body">
+                        <a href="https://www.youtube.com/watch?v=0XcN12uVHeQ">
+                          <div class="row">
+                            <div class="col-12 col-sm-4">
+                              <img class="cardImg img-fluid" src="img/souldtosqueeeze.png">
+                            </div>
+                            <div class="col-12 col-sm-8">
+                              <div class="card-title">
+                                <p class="title-2">Soul to Squeeze</p>
+                              </div>
+                              <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Coneheads</li>
+                                <li class="list-group-item">1993</li>
+                                <li class="list-group-item">4:52</li>
+                              </ul>
+                            </div>
+                          </div></a>
+                        </div>
+                      </div>
+                      
+                      <!-- CARD SIX-->
+                      <div class="card cSix">
+                        <div class="card-body">
+                          <a href="https://www.youtube.com/watch?v=Mr_uHJPUlO8">
+                            <div class="row">
+                              <div class="col-12 col-sm-4">
+                                <img class="cardImg img-fluid" src="img/giveitaway.png">
+                              </div>
+                              <div class="col-12 col-sm-8">
+                                <div class="card-title">
+                                  <p class="title-2">Give it Away</p>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                  <li class="list-group-item">Devotion to Emotion</li>
+                                  <li class="list-group-item">1989</li>
+                                  <li class="list-group-item">DUREE</li>
+                                </ul>
+                              </div>
+                            </div></a>
+                          </div>
+                        </div>
+                        
+                        <!-- Video Youtube-->
+                        <section class="video">
+                          <p class="title-1 video">Video</p>
+                          <div class="ratio ratio-16x9">
+                            <iframe src="https://www.youtube.com/embed/YlUKcNNmywk" frameborder="0" allowfullscreen ></iframe>
+                          </div>
+                        </section>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <section>
+                <p class="title-1">Performances</p>
+                
+                <div class="swiper mySwiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img class="perform" src="img/perform1.jpg"></div>
+                    <div class="swiper-slide"><img class="perform" src="img/perform2.jpg"></div>
+                    <div class="swiper-slide"><img class="perform" src="img/perform3.jpg"></div>
+                    <div class="swiper-slide"><img class="perform" src="img/perform4.jpg"></div>
+                    <div class="swiper-slide"><img class="perform" src="img/perform5.jpg"></div>
+                  </div>
+                  <div class="swiper-button-next"></div>
+                  <div class="swiper-button-prev"></div>
+                </div>
+                
+                <!-- Swiper JS -->
+                <link
+                rel="stylesheet"
+                href="https://unpkg.com/swiper/swiper-bundle.min.css"
+                />
+                <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+                
+                <!-- Initialize Swiper -->
+                <script>
+                  var swiper = new Swiper(".mySwiper", {
+                    loop: true,
+                    breakpoints: {
+                      992: {
+                        slidesPerView: 2,
+                        spaceBetween: 20,
+                      },
+                    },
+                    navigation: {
+                      nextEl: ".swiper-button-next",
+                      prevEl: ".swiper-button-prev",
+                    },
+                  });
+                </script>
+                
+              </section>
+              
+              <footer>
+                <div class="container-fluid">
+                  <div class="row justify-content-center">
+                    <div class="col-lg-5 text-center text-lg-start texteFooter">
+                      <a class="name" data-bs-toggle="modal" data-bs-target="#dom">Dominic Yale</a></br>
+                      <a class="name" data-bs-toggle="modal" data-bs-target="#seb">Sébastien Reilly</a></br>
+                      <a class="name" data-bs-toggle="modal" data-bs-target="#sab">Sabrina Laforest</a>
+                    </div>
+                    <div class="col-lg-6"><p class="texteFooter"><a class="lienGit" href="https://github.com/VeganVeg/dominic-sebastien-megazord">Projet GitHub</a></br></br>
+                      ©2022</p></div>
+                    </div>
+                  </div>
+                </footer>
+                
+                <div class="modal fade" id="dom" tabindex="-1">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <p class="title-2" class="modal-title">Dominic Yale</p>
+                        <button class="btn-close" data-bs-dismiss="modal" aria-label="Fermer la fenetre">
+                        </button>
+                      </div>
+                      <div class="modal-body img-credits">
+                        <img src="img/dom.png">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="modal fade" id="seb" tabindex="-1">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <p class="title-2" class="modal-title">Sebastien Reilly</p>
+                        <button class="btn-close" data-bs-dismiss="modal" aria-label="Fermer la fenetre">
+                        </button>
+                      </div>
+                      <div class="modal-body img-credits">
+                        <img src="img/seb.png">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="modal fade" id="sab" tabindex="-1">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <p class="title-2" class="modal-title">Sabrina Laforest</p>
+                        <button class="btn-close" data-bs-dismiss="modal" aria-label="Fermer la fenetre">
+                        </button>
+                      </div>
+                      <div class="modal-body img-credits">
+                        <img src="img/sab.png">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+              
+              </body>
+              </html>
