@@ -4,7 +4,7 @@ let imagesArr = document.querySelectorAll('section');
 imagesArr.forEach(function (img) {
   gsap.to(img, {
     scrollTrigger: {
-      markers: true,
+      markers: false,
       start: 'top 70%',
       end: 'tpo 50%',
       trigger: img,
@@ -22,7 +22,7 @@ titleArr.forEach(function (title) {
   console.log(title)
   gsap.to(title, {
     scrollTrigger: {
-      markers: true,
+      markers: false,
       start: 'top 70%',
       end: 'tpo 50%',
       trigger: title,
