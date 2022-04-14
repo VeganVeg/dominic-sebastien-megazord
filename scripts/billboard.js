@@ -1,7 +1,7 @@
 
 /* Bonjour, apparement on dirait que ma page js ne veut pas se connecter a la page html;
  le gsap fonctionne bien je l'ai fait avec codepen svp pourriez vous regarder ce qui ne 
-fonctionne pas on ne comprend pas */ 
+fonctionne pas on(sebastien et moi) ne comprend pas */ 
 
 gsap.registerPlugin(ScrollTrigger);
 
