@@ -172,8 +172,9 @@ footer {
   color: white;
 }
 
-.animation {
+.anim .skateboard-scroll-down {
   width: 100%;
+  background-image: url('');
 }
 
 .img-credits {
