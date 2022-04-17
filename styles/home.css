@@ -172,9 +172,21 @@ footer {
   color: white;
 }
 
-.anim .skateboard-scroll-down {
-  width: 100%;
-  background-image: url('');
+.skateboard-scroll-down {
+  width: 250px;
+  height: 250px;
+  background-image: url('../img/skateboard_scroll_down.png');
+  background-size: cover;
+  margin-top: 15px;
+  animation-name: skateSD;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(48);
+  animation-duration: 1s;
+}
+
+@keyframes skateSD {
+  from { background-position: 0 0; }
+  to { background-position: 0 12000px;}
 }
 
 .img-credits {
