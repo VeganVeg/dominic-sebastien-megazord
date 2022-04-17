@@ -1,1 +1,221 @@
+body{
+  width: 100%;
+  height: 100%;
+  background-color: var(--maroon);
+}
 
+.hero{
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+
+.accueil{
+  height: 200px;
+  position: absolute;
+  top: 0;
+}
+
+.billboardtext{
+  text-align: justify;
+  color: white !important;
+}
+
+.title-1{
+  color: white;
+  text-decoration: none;
+}
+
+.title-2{
+  color: black;
+  text-decoration: none;
+}
+
+.button{
+  border-style: outset;
+  padding: 5px;
+  background-color: var(--maroon);
+  border-color:  black;
+  color: white ;
+}
+
+picture{
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: 75% 0%;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding: 0;
+}
+
+.bck-opacity{
+  opacity: 40%;
+  background-color: grey;
+}
+
+.title-1{
+  margin: 12px 20px 12px 20px;
+  text-align: center;
+} 
+
+@media (orientation: landscape) {
+  .hero{
+    height:56.25vw;
+    width: 100%;
+  }
+}
+
+.nav-link {
+  opacity: 100%;
+}
+
+.navbar-dark{
+  background-color: var(--darkRed);
+}
+
+nav{
+  width: 100% ;
+  height: 60px;
+  position: relative;
+}
+
+footer{
+  background-color: var(--darkRed);
+  margin-top: 20px;
+  text-align: center;
+}
+
+.texteFooter{
+  padding-top: 20px;
+  color:black; 
+}
+
+.lienGit{
+  color: black; 
+  text-decoration: none;
+}
+
+.lienGit:hover{
+  color: black;
+}
+
+@media (min-width: 992px){
+  footer{
+    height: 13%;
+  }
+}
+
+.active{
+  color:black !important;
+}
+
+.pepperAnimIdle{
+  margin-top: 10px;
+  background-image: url("../img/idle_pepper.png");
+  width: 100%;
+  height: 250px;
+  border: dotted 3px black;
+  background-size: cover;
+  animation-name: idlePepper;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(24);
+}
+
+@keyframes idlePepper {
+  from { background-position: 0 0;}
+  to {background-position: 0 100%;}
+}
+
+.pepperAnim2{
+  margin-top: 10px;
+  background-image: url("../img/hot_pepper.png");
+  width: 100%;
+  height: 250px;
+  border: dotted 3px black;
+  background-size: cover;
+  animation-name: hotPepper;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(24);
+}
+
+@keyframes hotPepper {
+  from { background-position: 0 0;}
+  to {background-position: 0 100%;}
+}
+
+.pepperAnim3{
+  margin-top: 10px;
+  background-image: url("../img/hot_pepper.png");
+  width: 100%;
+  height: 250px;
+  border: dotted 3px black;
+  background-size: cover;
+  animation-name: hotPepper;
+  animation-duration: 1s;
+  animation-direction: reverse;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(24);
+}
+
+.card{
+  margin-top: 10px;
+}
+
+.titre{
+  text-align: center;
+  
+}
+
+.card:hover{
+  animation-name:hoverAnim;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes hoverAnim{
+  from {transform: scale(100%)}
+  to {transform: scale(102%)}
+}
+
+a{
+  text-decoration: none;
+}
+
+iframe{
+  height: 100%;
+  width: 100%;
+}
+
+.img-credits{
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.name{
+  color: black;
+}
+
+.name:hover{
+  color: yellow;
+}
+
+.swiper {
+  height: 500px;
+}
+
+.perform{
+  object-fit: cover;
+}
+
+.video{
+  margin-top: 10px;
+}
