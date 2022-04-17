@@ -172,6 +172,24 @@ footer {
   color: white;
 }
 
+.skateboard-idle {
+  width: 250px;
+  height: 250px;
+  background-image: url('../img/skateboard_idle.png');
+  background-size: cover;
+  margin-top: 15px;
+  animation-name: skateSI;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(48);
+  animation-duration: 2s;
+  position: sticky;
+}
+
+@keyframes skateSI {
+  from { background-position: 0 0; }
+  to { background-position: 0 12000px;}
+}
+
 .skateboard-scroll-down {
   width: 250px;
   height: 250px;
@@ -181,10 +199,29 @@ footer {
   animation-name: skateSD;
   animation-iteration-count: infinite;
   animation-timing-function: steps(48);
-  animation-duration: 1s;
+  animation-duration: 2s;
+  position: sticky;
 }
 
 @keyframes skateSD {
+  from { background-position: 0 0; }
+  to { background-position: 0 12000px;}
+}
+
+.skateboard-scroll-up {
+  width: 250px;
+  height: 250px;
+  background-image: url('../img/skateboard_scroll_up.png');
+  background-size: cover;
+  margin-top: 15px;
+  animation-name: skateSU;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(48);
+  animation-duration: 2s;
+  position: sticky;
+}
+
+@keyframes skateSU {
   from { background-position: 0 0; }
   to { background-position: 0 12000px;}
 }

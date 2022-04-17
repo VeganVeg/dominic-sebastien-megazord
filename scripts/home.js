@@ -32,3 +32,24 @@ titleArr.forEach(function (title) {
     duration: 0.3,
   });
 });
+
+const anim = document.querySelector('.anim');
+
+let skateboard = gsap.timeline({
+  scrolltrigger: {
+    trigger: 'body',
+    
+    onUpdate: (e) => {
+      if(e.progress){
+
+        if(e.direction==-1){
+          anim.classList.add('skateboard-scroll-up');
+          anim.classList.remove('skateboard-idle');
+        }else{
+          anim.classList.add('skateboard-idle')
+          anim.classList.remove('skateboard-scroll-up');
+        }
+      }
+    }
+  }
+})
