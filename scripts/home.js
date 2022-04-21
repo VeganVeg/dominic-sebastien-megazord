@@ -43,11 +43,11 @@ let skateboard = gsap.timeline({
       if(e.progress){
 
         if(e.direction==-1){
-          anim.classList.add('skateboard-scroll-up');
-          anim.classList.remove('skateboard-idle');
+          anim.className.add('skateboard-scroll-up');
+          anim.className.remove('skateboard-idle');
         }else{
-          anim.classList.add('skateboard-idle')
-          anim.classList.remove('skateboard-scroll-up');
+          anim.className.add('skateboard-idle')
+          anim.className.remove('skateboard-scroll-up');
         }
       }
     }
