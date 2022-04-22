@@ -10,7 +10,6 @@
 
 body {
   width: 100vw;
-  height: 100vh;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
@@ -186,8 +185,13 @@ footer {
 }
 
 @keyframes skateSI {
-  from { background-position: 0 0; }
-  to { background-position: 0 12000px;}
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: 0 12000px;
+  }
 }
 
 .skateboard-scroll-down {
@@ -204,8 +208,13 @@ footer {
 }
 
 @keyframes skateSD {
-  from { background-position: 0 0; }
-  to { background-position: 0 12000px;}
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: 0 12000px;
+  }
 }
 
 .skateboard-scroll-up {
@@ -222,8 +231,13 @@ footer {
 }
 
 @keyframes skateSU {
-  from { background-position: 0 0; }
-  to { background-position: 0 12000px;}
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: 0 12000px;
+  }
 }
 
 .img-credits {
