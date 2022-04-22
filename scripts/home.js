@@ -71,3 +71,8 @@ window.addEventListener('scroll', function () {
     anim.classList.remove('skateboard-scroll-down');
   }, 50)
 });
+
+const newLineToBr = function (str) {
+  return str.replace(/(?:\r\n|\r|\n)/g, '<br>');
+}
+
