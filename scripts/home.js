@@ -76,3 +76,10 @@ const newLineToBr = function (str) {
   return str.replace(/(?:\r\n|\r|\n)/g, '<br>');
 }
 
+let titre = document.querySelector('#titre');
+let submit = document.querySelector('#submit');
+
+submit.addEventListener('click', function () {
+  titre.innerText = titre.value;
+  console.log(titre.value)
+})
