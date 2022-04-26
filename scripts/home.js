@@ -79,7 +79,20 @@ const newLineToBr = function (str) {
 let titre = document.querySelector('#titre');
 let submit = document.querySelector('#submit');
 
-submit.addEventListener('click', function () {
-  titre.innerText = titre.value;
-  console.log(titre.value)
+submit.addEventListener('click', function (e) {
+  e.preventDefault();
+  let group = 'Red Hot Chili Peppers';
+  let song = titre.value;
+  let combineGS = group + '/' + song;
+  let url = 'https://api.lyrics.ovh/v1/' + combineGS;
+  fetch(url)
+    .then((data) => data.json())
+    .then((result) => {
+      console.log(result);
+      /*result(function (paroles) {
+        let resultat = paroles.lyrics;
+        console.log(resultat);
+      })*/
+      /*const test = newLineToBr.result.lyrics;*/
+    })
 })
