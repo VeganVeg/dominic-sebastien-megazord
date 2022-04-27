@@ -48,18 +48,33 @@ gsap.to('.anim', {
     },
   }});  */ 
 
-  let titre = document.querySelector('.titre');
-  let submit = document.querySelector('.submit');
+  let titre = document.querySelector('.titreParole');
+  //let submit = document.querySelector('.submit');
+  let form = document.getElementById('form');
+  const groupe = "red hot chili peppers";
+  const divParole = document.querySelector('.parole');
   
-  submit.addEventListener('click', function () {
-    else.preventDefault();
+  form.addEventListener('submit', function (e) {
+    console.log(titre.value);
+    e.preventDefault();
     if (titre != null){
-        fetch("https://api.lyrics.ovh/v1/redhotchilipepper/"submit.value)
+        fetch("https://api.lyrics.ovh/v1/" + groupe + "/" + titre.value)
             .then(data => data.json())
             .then(paroles => {
-                const newLineToBr = function (str) {
-                    return str.replace(/(?:\r\n|\r|\n)/g, '<br>');
-  }
-            });
-    }
-  })
+              newLineToBr(paroles.lyrics);
+              //console.log(paroles.lyrics);
+            })
+          }
+    /* function createHtml(sab){
+    
+     
+    } */
+      const newLineToBr = function (str) {
+        //console.log(str);
+                  //str.replace(/(?:\r\n|\r|\n)/g, '<br>');
+                  console.log(str); 
+                  let html = `<p>${str.replace(/(?:\r\n|\r|\n)/g, '<br>')}</p>`;
+                  divParole.innerHTML = html;}
+    })
+  
+ 
