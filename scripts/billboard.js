@@ -1,7 +1,7 @@
 
 /* Bonjour, apparement on dirait que ma page js ne veut pas se connecter a la page html;
  le gsap fonctionne bien je l'ai fait avec codepen svp pourriez vous regarder ce qui ne 
-fonctionne pas on(sebastien et moi) ne comprend pas 
+fonctionne pas on(sebastien et moi) ne comprend pas */
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -13,21 +13,21 @@ gsap.timeline({
     trigger: '.titre',
   },
 })
-  .from('.cOne', { x: '100%', duration: 2, })
+  .from('.cOne', { x: '100%', duration: 1, })
   .from('.anim', { opacity: 0, duration: 1, })
-  .from('.cTwo', { x: '100%', duration: 2, })
-  .from('.cThree', { x: '100%', duration: 2, })
-  .from('.cFour', { x: '100%', duration: 2, })
-  .from('.cFive', { x: '100%', duration: 2, })
-  .from('.cSix', { x: '100%', duration: 2, })
-  .from('.video', { opacity: 0, duration: 2, })
-  .from('.mySwiper', { opacity: 0, duration: 2, })
+  .from('.cTwo', { x: '100%', duration: 1, })
+  .from('.cThree', { x: '100%', duration: 1, })
+  .from('.cFour', { x: '100%', duration: 1, })
+  .from('.cFive', { x: '100%', duration: 1, })
+  .from('.cSix', { x: '100%', duration: 1, })
+  .from('.video', { opacity: 0, duration: 1, })
+  .from('.mySwiper', { opacity: 0, duration: 1, })
 
   const anim = document.querySelector(".anim");
 
 gsap.to('.anim', {
   scrollTrigger: {
-    trigger: '.level',
+    trigger: '.title-1',
     start: 'top 0',
     end: 'bottom 100%', 
     
@@ -46,7 +46,7 @@ gsap.to('.anim', {
       body.classList.remove('pepperAnimIdle');
       body.classList.remove('pepperAnim2');
     },
-  }});  */ 
+  }});   
 
   let titre = document.querySelector('.titreParole');
   //let submit = document.querySelector('.submit');
