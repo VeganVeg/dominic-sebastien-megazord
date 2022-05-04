@@ -23,7 +23,7 @@ const anim = document.querySelector(".anim");
 
 gsap.to('.anim', {
   scrollTrigger: {
-    trigger: '.title-1',
+    trigger: '.anim',
     start: 'top 0',
     end: 'bottom 100%',
     
@@ -38,7 +38,7 @@ gsap.to('.anim', {
       anim.classList.remove('pepperAnim2');
     },
     onLeave: () => {
-      anim.classList.add('pepper3');
+      anim.classList.add('pepperAnim3');
       anim.classList.remove('pepperAnimIdle');
       anim.classList.remove('pepperAnim2');
     },

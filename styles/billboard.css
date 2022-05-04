@@ -126,7 +126,7 @@ footer{
   animation-name: idlePepper;
   animation-duration: 1s;
   animation-iteration-count: infinite;
-  animation-timing-function: steps(24);
+  animation-timing-function: steps(25);
 }
 
 @keyframes idlePepper {
