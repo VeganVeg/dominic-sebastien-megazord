@@ -89,11 +89,10 @@ submit.addEventListener('click', function (e) {
   fetch(url)
     .then((data) => data.json())
     .then((result) => {
-      console.log(result.lyrics);
       let resultat = result.lyrics;
-      let para = document.getElementById('p');
-      let text = document.createTextNode(resultat);
+      let para = document.createElement('p');
+      para.innerText = resultat;
+      document.querySelector('.paroles').appendChild(para);
 
-      para.appendChild(text)
     })
 })
