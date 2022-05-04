@@ -78,6 +78,7 @@ const newLineToBr = function (str) {
 
 let titre = document.querySelector('#titre');
 let submit = document.querySelector('#submit');
+let paroles = document.querySelector('.paroles');
 
 submit.addEventListener('click', function (e) {
   e.preventDefault();
@@ -88,11 +89,11 @@ submit.addEventListener('click', function (e) {
   fetch(url)
     .then((data) => data.json())
     .then((result) => {
-      console.log(result);
-      /*result(function (paroles) {
-        let resultat = paroles.lyrics;
-        console.log(resultat);
-      })*/
-      /*const test = newLineToBr.result.lyrics;*/
+      console.log(result.lyrics);
+      let resultat = result.lyrics;
+      let para = document.getElementById('p');
+      let text = document.createTextNode(resultat);
+
+      para.appendChild(text)
     })
 })
