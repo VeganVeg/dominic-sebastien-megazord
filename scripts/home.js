@@ -90,9 +90,12 @@ submit.addEventListener('click', function (e) {
     .then((data) => data.json())
     .then((result) => {
       let resultat = result.lyrics;
-      let para = document.createElement('p');
-      para.innerText = resultat;
-      document.querySelector('.paroles').appendChild(para);
-
+      resultat = newLineToBr(result.lyrics);
+      paroles.innerHTML = resultat;
     })
-})
+    .catch( function(error){
+      console.log('error')
+      paroles.innerHTML = "<p>Désolé, les paroles n'ont pu être trouvées. En voici la raison:</p>" + error;
+
+    });
+});

@@ -257,3 +257,11 @@ footer {
 .modal-title {
   color: black;
 }
+
+.paroles{
+  background-color: #540a0a;
+}
+
+.spinner-border{
+  display: none;
+}
