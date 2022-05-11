@@ -9,13 +9,13 @@ gsap.timeline({
     trigger: '.titre',
   },
 })
-.from('.cOne', { x: '100%', duration: 1, })
-.from('.anim', { opacity: 0, duration: 1, })
-.from('.cTwo', { x: '100%', duration: 1, })
-.from('.cThree', { x: '100%', duration: 1, })
-.from('.cFour', { x: '100%', duration: 1, })
-.from('.cFive', { x: '100%', duration: 1, })
-.from('.cSix', { x: '100%', duration: 1, })
+.from('.cOne', { opacity: 0, duration: 1, })
+.from('.anim', { opacity: 0, duration: 1, },'-=0.5')
+.from('.cTwo', { opacity: 0, duration: 1, })
+.from('.cThree', { opacity: 0, duration: 1, })
+.from('.cFour', { opacity: 0, duration: 1, })
+.from('.cFive', { opacity: 0, duration: 1, })
+.from('.cSix', { opacity: 0, duration: 1, })
 .from('.video', { opacity: 0, duration: 1, })
 .from('.mySwiper', { opacity: 0, duration: 1, })
 
