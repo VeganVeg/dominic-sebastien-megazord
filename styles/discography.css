@@ -132,10 +132,10 @@ footer{
     cursor: pointer;
   }
 
-  .animation{
+  .anim{
     position: relative;
     width: 100%;
-    bottom: 35vh;
+    left: 1400px;
     display: block;
   }
   
@@ -176,4 +176,12 @@ footer{
     position: absolute;
     z-index: 1;
     top: 700px;
+  }
+
+  section{
+      opacity: 0;
+  }
+
+  .modal-title{
+      color: #000000;
   }
