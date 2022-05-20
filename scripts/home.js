@@ -41,7 +41,6 @@ let isScrolling;
 let skateboard = gsap.timeline({
   scrollTrigger: {
     trigger: 'body',
-    markers: true,
     onUpdate: (e) => {
       if (e.progress) {
 
@@ -93,7 +92,7 @@ submit.addEventListener('click', function (e) {
       resultat = newLineToBr(result.lyrics);
       paroles.innerHTML = resultat;
     })
-    .catch( function(error){
+    .catch(function (error) {
       console.log('error')
       paroles.innerHTML = "<p>Désolé, les paroles n'ont pu être trouvées. En voici la raison:</p>" + error;
 

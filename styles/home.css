@@ -258,10 +258,11 @@ footer {
   color: black;
 }
 
-.paroles{
+.paroles {
   background-color: #540a0a;
+  color: white;
 }
 
-.spinner-border{
+.spinner-border {
   display: none;
 }
