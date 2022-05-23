@@ -4,7 +4,6 @@
 <link rel="stylesheet" href="styles/discography.css">
 <link rel="stylesheet" href="styles/main.css">
 <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
-<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 <script>
     const swiper = new Swiper('.mySwiper', {
         direction: 'vertical',
@@ -14,12 +13,10 @@
         },
     });
 </script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.0/gsap.min.js" integrity="sha512-bD2JVWcpIS1kkd7gbzcVKfGbwLTRKL+2RT55rGbhSp/nqCz8vanLuZ8O5K1FLtyPoS2RvLD9sThVgHdgrHFBPw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.0/ScrollTrigger.js" integrity="sha512-NrWBb8jtMpQ6j5nhKs8BEzHL3nom+Oxg3IBUH8XFgA5n6l8WC4q75gvckZ+AaB0H/VbmWwpZRNUyyquASUFMfQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body>
 <header>
-    <!-- Slider main container -->
+        <!-- Slider main container -->
 <div class="mySwiper">
     <!-- Additional required wrapper -->
     <div class="swiper-wrapper">
@@ -38,12 +35,12 @@
       </div>
     </div>
 <div class="gradient"></div>
-<div class="container-fluid">
+<div class="container dessus">
     <div class="row align-items-end">
-        <div class="col-sm-8">
+        <div class="col 12">
             <h1 class="title-1">Discographie</h1>
             <p class="paragraphe">Les Red Hot Chili Peppers sont actif depuis 1983 jusqu'à aujourd'hui, 11 albums à leur actif et un autre en préparation dont la dâte de sorti est prévue pour le 1er avril 2022.</p>
-            <button class="button" type="button"><a href="#main" class="button">En savoir plus</a></button>
+            <button class="btn" type="button"><a href="#main">En savoir plus</a></button>
         </div>
     </div>
 </div>
@@ -62,7 +59,7 @@
                     <a href="index.html" class="nav-link">Accueil</a>
                 </li>
                 <li class="nav-item">
-                    <a href="discographie.html" class="nav-link" id="different">Discographie</a>
+                    <a href="discographie.html" class="nav-link active">Discographie</a>
                 </li>
                 <li class="nav-item">
                     <a href="palmares.html" class="nav-link">Palmares</a>
@@ -73,12 +70,17 @@
 </nav>
 
 <main>
+<section class="anim">
+        <div class="d-none d-md-block col-md-3">
+            <img class="animation" src="img/anim_construction.png" alt="animation à venir">
+        </div>
+</section>
 <div class="container">
     <div class="row">
-        <div class="col-12 col-md-9" id="main">
-            <section class="contenu">
-                    <div class="col-6 col-sm-5">
-                        <p class="title-2">The Red Hot Chili Peppers </p>
+        <div class="col-12 col-md-9">
+            <section class="contenu row">
+                    <div class="col-12 col-sm-5">
+                        <h2 class="title-2">The Red Hot Chili Peppers </h2>
                         <ul>
                             <li>True Men Don't Kill Coyotes</li>
                             <li>True Men Don't Kill Coyotes</li>
@@ -94,11 +96,19 @@
                         </ul>
                         <button class="button" type="button"><a href="https://en.wikipedia.org/wiki/The_Red_Hot_Chili_Peppers_(album)" class="button">En savoir plus</a></button>
                     </div>
-                    <div class="col-6 col-sm-7">
-                        <img src="img/rhcp_discography_portrait.jpg" class="block">
+                    <div class="col-12 col-sm-7">
+                        <img src="img/rhcp_discography_portrait.jpg" class="img-fluid">
                     </div>
-                    <div class="col-6 col-sm-5">
-                        <p class="title-2">Freaky Styley </p>
+            </section>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-md-9">
+            <section class="contenu row">
+                    <div class="col-12 col-sm-5">
+                        <h2 class="title-2">Freaky Styley </h2>
                         <ul>
                             <li>Jungle Man</li>
                             <li>Hollywood (Africa)</li>
@@ -117,11 +127,19 @@
                         </ul>
                         <button class="button" type="button"><a href="https://en.wikipedia.org/wiki/Freaky_Styley" class="button">En savoir plus</a></button>
                     </div>
-                    <div class="col-6 col-sm-7">
-                        <img src="img/rhcp_image_album_2.jpg" class="block">
+                    <div class="col-12 col-sm-7">
+                        <img src="img/rhcp_image_album_2.jpg" class="img-fluid">
                     </div>
-                    <div class="col-6 col-sm-5">
-                        <p class="title-2">The Uplift Mofo Party Plan </p>
+            </section>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-md-9">
+            <section class="contenu row">
+                    <div class="col-12 col-sm-5">
+                        <h2 class="title-2">The Uplift Mofo Party Plan </h2>
                         <ul>
                             <li>Fight Like a Brave</li>
                             <li>Funky Crime</li>
@@ -138,38 +156,46 @@
                         </ul>
                         <button class="button" type="button"><a href="https://en.wikipedia.org/wiki/The_Uplift_Mofo_Party_Plan" class="button">En savoir plus</a></button>
                     </div>
-                    <div class="col-6 col-sm-7">
-                        <img src="img/rhcp_image_album_3.jpg" class="block">
+                    <div class="col-12 col-sm-7">
+                        <img src="img/rhcp_image_album_3.jpg" class="img-fluid">
                     </div>
             </section>
         </div>
-        <div class="d-none d-md-block col-md-3">
-            <img class="animation" src="img/anim_construction.png" alt="animation à venir">
-        </div>
     </div>
 </div>
-
+<div class="container">
 <section>
-    <div class="container">
         <div class="row">
             <div class="col">
                 <h2 class="title-2">Vidéo</h2>
                 <div class="ratio ratio-16x9">
                     <iframe src="https://youtu.be/rn_YodiJO6k" title="YouTube video" style="max-width: 100%;height: 100%;" allowfullscreen></iframe>
-                <</div>    
+                </div>    
             </div>
         </div>
-    </div>
 </section>
+</div>
+<div class="container">
+<section>
+        <div class="row">
+            <div class="col">
+                <h2 class="title-2">Des paroles qui inspirent</h2>
+                <div class="parole">
+                    
+                </div>
+            </div>
+        </div>
+</section>
+</div>
 </main>
 
 <footer>
 <div class="container">
     <div class="row justify-content-center align-items-center">
         <div class="col-lg-6">
-            <button class="texteFooter nom btn" data-bs-toggle="modal" data-bs-target="#sab">Sabrina Laforest</p>
-            <button class="texteFooter nom btn" data-bs-toggle="modal" data-bs-target="#dom"">Dominic Yale</p>
-            <button class="texteFooter nom btn" data-bs-toggle="modal" data-bs-target="#seb"">Sebastien Reilly</p>
+            <a class="name" data-bs-toggle="modal" data-bs-target="#dom">Dominic Yale</a></br>
+            <a class="name" data-bs-toggle="modal" data-bs-target="#seb">Sébastien Reilly</a></br>
+            <a class="name" data-bs-toggle="modal" data-bs-target="#sab">Sabrina Laforest</a>
         </div>
 
         <div class="col-lg-6">
@@ -226,6 +252,10 @@
     </div>
 </div>
 </footer>
-</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.0/gsap.min.js" integrity="sha512-bD2JVWcpIS1kkd7gbzcVKfGbwLTRKL+2RT55rGbhSp/nqCz8vanLuZ8O5K1FLtyPoS2RvLD9sThVgHdgrHFBPw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.0/ScrollTrigger.js" integrity="sha512-NrWBb8jtMpQ6j5nhKs8BEzHL3nom+Oxg3IBUH8XFgA5n6l8WC4q75gvckZ+AaB0H/VbmWwpZRNUyyquASUFMfQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script type="text/javascript" src="scripts/discography.js"></script>
+</body>
 </html>

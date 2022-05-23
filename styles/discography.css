@@ -1,17 +1,25 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-color: var(--maroon);
+    color: white;
+  }
+
 header{
     position: relative;
     width: 100vw;
     height: 100vh;
 }
 
+a{
+    color: #000000;
+    text-decoration: none;
+}
 
-
-picture{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    display: block;
-    background-color: var( --harvestGold);
+a:hover{
+    color: yellow;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 img{
@@ -22,15 +30,16 @@ img{
 
 .gradient{
     position: absolute;
+    z-index: 1;
     top: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient( to bottom, var(--navy), var(--kleinBlue));
+    opacity: 50%;
+    background-image: linear-gradient( to bottom, var(--darkRed), var(--maroon));
 }
 
 
 .container-fluid{
-    position: absolute;
     top: 0;
     width: 100%;
     height: 100%;
@@ -43,16 +52,14 @@ img{
 
 
 .title-1{
-    color: var(--rossoCorsa);
     font-weight: 500;
 }
 
 .paragraphe{
-    color: var(--rossoCorsa);
     font-weight: bolder;
 }
 
-.button{
+.btn{
     color: var(--kleinBlue);
     font-size: larger;
     background-color: var( --harvestGold);
@@ -65,14 +72,6 @@ img{
         height: 56.25vw;
     }
 
-    .paragraphe{
-        color: var( --harvestGold);
-    }
-
-    .title-1{
-        color: var( --harvestGold);
-    }
-
     .contenu{
         margin-top: 40px;
         margin-bottom: 40px;
@@ -82,21 +81,13 @@ img{
 nav{
     position: relative;
     width: 100vw;
-    background-color: var(--hunterGreen);
+    background-color: var(--darkRed);
     bottom: 0;
 }
 
-
-#different{
-    color: #000000;
-    transition-property: color;
-    transition-duration: 0.15s;
-}
-
-#different:hover{
-    color: #3b3b3b;
-    transition-duration: 0.15s;
-}
+.active{
+    color:black !important;
+  }
 
 .logo{
     font-family: var(--titre);
@@ -110,18 +101,18 @@ nav{
 }
 
 footer{
-    background-color: var(--maroon);
+    background-color: var(--darkRed);
     margin-top: 20px;
     padding: 20px;
     height: 27%;
     width: 100vw;
-    position: absolute;
+    position: relative;
     bottom: -400vh;
     text-align: center;
   }
 
   .lienGit{
-    color: #fff;
+    color: black;
     text-decoration: none;
     transition-property: color;
     transition-duration: 0.15s;
@@ -133,7 +124,7 @@ footer{
   }
 
   .texteFooter{
-    color: #fff;
+    color: black;
   }
 
   .nom:hover{
@@ -141,10 +132,10 @@ footer{
     cursor: pointer;
   }
 
-  .animation{
+  .anim{
     position: relative;
     width: 100%;
-    bottom: 35vh;
+    left: 1400px;
     display: block;
   }
   
@@ -155,12 +146,6 @@ footer{
   .contenu{
     margin-top: 20px;
     margin-bottom: 20px;
-  }
-
-  .block{
-      position: relative;
-      display: block;
-      margin-top: 20px;
   }
 
   ul{
@@ -185,5 +170,18 @@ footer{
   .swiper {
     width: 100%;
     height: 100%;
-    z-index: -1;
-  }  
+  }
+
+  .dessus{
+    position: absolute;
+    z-index: 1;
+    top: 700px;
+  }
+
+  section{
+      opacity: 0;
+  }
+
+  .modal-title{
+      color: #000000;
+  }

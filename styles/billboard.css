@@ -2,6 +2,7 @@ body{
   width: 100%;
   height: 100%;
   background-color: var(--maroon);
+  color: white;
 }
 
 .hero{
@@ -125,7 +126,7 @@ footer{
   animation-name: idlePepper;
   animation-duration: 1s;
   animation-iteration-count: infinite;
-  animation-timing-function: steps(24);
+  animation-timing-function: steps(25);
 }
 
 @keyframes idlePepper {
