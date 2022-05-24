@@ -139,22 +139,9 @@ footer{
   display: block;
 }
 
-<<<<<<< Updated upstream
 main{
     position: relative;
 }
-=======
-  .animation{
-    position: sticky;
-    width: 100%;
-    margin-left: 1300px;
-    display: block;
-  }
-  
-  main{
-      position: relative;
-  }
->>>>>>> Stashed changes
 
 .contenu{
   margin-top: 20px;
